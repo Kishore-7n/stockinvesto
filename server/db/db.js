@@ -7,7 +7,7 @@ const client = new Client({
     host:process.env.STOCK_HOST,
     database:process.env.STOCK_DATABASE,
     password:process.env.STOCK_PASSWORD,
-    port:5432,
+    port:50013,
 });
 
 module.exports = client
