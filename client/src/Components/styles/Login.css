@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.stock-login-container{
+    width:100%;
+    height:100vh;
+    background-color:blueviolet;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.stock-login-div{
+    width:90%;
+    height:80%;
+    background-color:white;
+    border-radius:19px;
+    display:flex;
+}
+
+.stock-login-div-left{
+    width:50%;
+    height:100%;
+    position: relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.stock-login-div-left img{
+    width:85%;
+    height:90%;
+    position: absolute;
+    border-radius:19px;
+    
+}
+
+.stock-login-div-right
+{
+    width:50%;
+    height:100%;
+    position: relative;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+.stock-login-div-right form{
+    width:400px;
+    height:500px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    border-radius:19px;
+    background-position:center;
+}
+
+.stock-login-div-right-input{
+    width:300px;
+    height:80px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:row;
+    margin-bottom:20px;
+}
+
+
+
+.stock-login-div-right-input .input-text{
+    width:200px;
+    height:40px;
+    border-radius:7px;
+    outline:none;
+    border: 3px solid rgb(7, 225, 171);
+}
+
+.stock-login-div-right-input input::placeholder{
+    padding-left:10px;
+    font-weight:bold;
+}
+
+.stock-login-div-right-input h3{
+    font-family:"Poppins";
+    font-weight:bold;
+    font-size:30px;
+    padding-left:30px;
+    color:rgb(7, 225, 171);
+}
+
+
+.stock-login-div-right-ins{
+    width:300px;
+    height:70px;
+    display:flex;
+    justify-content:space-between;
+    flex-direction:row;
+    margin-bottom:20px;
+}
+
+.stock-login-div-right-ins h4{
+    font-weight:normal;
+}
+
+
+.stock-login-div-right-input button{
+    width:200px;
+    height:40px;
+    border-radius:7px;
+    outline:none;
+    border:1px solid rgb(7, 225, 171);
+    background-color:rgb(7, 225, 171);
+    color:white;
+    font-weight:bold;
+    font-size:15px;
+}
+
+.stock-login-div-right-input button:hover{
+    background-color:rgb(8, 208, 118);
+    border:1px solid rgb(8, 208, 118);
+}
+
+.mail-icon{
+    font-size:30px;
+    padding:10px;
+    color:rgb(7, 225, 171);
+}
+

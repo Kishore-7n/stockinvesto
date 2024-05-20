@@ -1,0 +1,71 @@
+
+
+.custom-modal {
+    max-width: 600px;
+    width:600px;
+    height:500px;
+    margin: 100px auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1050; 
+    border-radius:19px;
+    background-color:rgb(215, 212, 212);
+  }
+  
+  .modal-header {
+    width:600px;
+    height:50px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:black;
+    font-family:"Poppins";
+    font-weight:bold;
+  }
+  
+  .modal-footer {
+    width:600px;
+    height:50px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+  }
+  
+  .modal-footer button {
+    color: #fff;
+    background-color: #007bff;
+    border: 1px solid  #007bff;
+    width:200px;
+    height:40px;
+    border-radius:19px;
+    font-weight:bold;
+    font-size:15px;
+  }
+  
+  .stock-details-list{
+    width:600px;
+    height:100px;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    flex-wrap:wrap;
+  }
+
+  .stock-details-list h4{
+    font-size:15px;
+    font-weight:bold;
+    font-family:"poppins";
+    color:gray;
+    margin-right:5px;
+    
+  }
+
+  .stock-details-list h5{
+    font-size:15px;
+    font-weight:bold;
+    margin-right:10px;
+    font-family:"Poppins";
+  }
+  

@@ -1,0 +1,102 @@
+
+
+.orders-main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  background-color: #989292;
+  width:100%;
+  min-height:100vh;
+  height:auto;
+}
+
+
+
+.orders-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding-top:150px;
+    background-color: #989292;
+    width:100%;
+    min-height:100vh;
+    height:auto;
+    background-color:blueviolet;
+  }
+  
+  .xyx-container{
+    width:100%;
+    padding-top:50px;
+    position:fixed;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    background-color:whitesmoke;
+  }
+
+  .xyx-container .wallet-icon{
+    font-size:20px;
+    padding:5px;
+  }
+
+  .xyx-container h4{
+    text-align:center;
+    font-size:40px;
+    font-family:"Poppins";
+    color:#007bff;
+  }
+  .order-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height:400px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .order-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .order-card img {
+    width:130px;
+    height:100px;
+
+  }
+  
+  .order-card .order-id,
+  .order-card .user-id,
+  .order-card .stock-symbol,
+  .order-card .stock-name {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+    padding:10px;
+  }
+  
+  .order-card .order-id {
+    font-weight: bold;
+  }
+  
+  .order-card .stock-symbol {
+    color: #007bff;
+    font-size: 14px;
+    font-weight:bold;
+  }
+  
+  .order-card button{
+    width:200px;
+    height:40px;
+    font-weight:bold;
+    font-size:15px;
+    color:white;
+    background-color:rgb(12, 228, 12);
+    border:1px solid rgb(12,228,12);
+    border-radius:19px;
+    outline:none;
+  }

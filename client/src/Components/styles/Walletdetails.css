@@ -1,0 +1,24 @@
+.customwallet-modal {
+    max-width: 600px;
+    width:600px;
+    height:200px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin: 100px auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1050; 
+    border-radius:19px;
+    background-color:rgb(215, 212, 212);
+  }
+
+  .wallet-body,.wallet-footer{
+    width:600px;
+    height:70px;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+  }

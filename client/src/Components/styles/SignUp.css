@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.stock-signup-container{
+    width:100%;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:rgb(196, 193, 193);
+}
+
+.stock-signup-div{
+    width:80%;
+    height:80%;
+    border-radius:19px;
+    background-color:white;
+    margin-top:50px;
+    padding:20px;
+    display:flex;
+}
+
+.stock-signup-div-left
+{
+    width:50%;
+    height:90%;
+}
+.stock-signup-div-left h4{
+    font-size:30px;
+    font-weight:bold;
+    color:black;
+    font-family:"Roboto";
+    padding-left:50px;
+}
+
+.stock-signup-div-left h5{
+    font-size:20px;
+    font-weight:bold;
+    color:black;
+    font-family:"Roboto";
+    padding-left:50px;
+    padding-bottom:30px;
+}
+
+.stock-signup-div-left-oath
+{
+    width:500px;
+    height:80px;
+    padding-left:50px;
+    display:flex;
+}
+
+.stock-signup-div-left-oath button{
+    width:220px;
+    height:40px;
+    background-color:white;
+    border:1px solid gray;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    outline:none;
+    border-radius:9px;
+}
+
+.stock-signup-div-left-oath button img{
+    width:15px;
+
+}
+
+.stock-signup-div-left-oath button h4{
+    font-size:15px;
+    font-weight:normal;
+}
+
+.stock-signup-div-left-oath h5{
+    font-size:15px;
+    font-weight:normal;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+}
+
+.stock-signup-div-left .divider{
+    width:500px;
+    height:2px;
+    margin-left:50px;
+    margin-bottom:10px;
+    background-color:gray;
+}
+
+.stock-signup-div-left-input-container
+{
+    width:500px;
+    height:350px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    padding-left:40px;
+}
+
+.stock-signup-div-left-input-container form{
+    width:500px;
+    height:350px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    padding-left:20px;
+    font-family:"Roboto";
+}
+
+
+.stock-signup-div-left-input-container input{
+    width:250px;
+    height:35px;
+    outline:none;
+    border:1px solid gray;
+    border-radius:7px;
+    margin-bottom:10px;  
+}
+
+.stock-signup-div-left-input-container input::placeholder{
+    padding:10px;
+    font-weight:bold;
+}
+.stock-signup-div-left-input-container input:hover{
+    border:1px solid blue;
+}
+
+.stock-signup-div-left-input-container label{
+    width:250px;
+    margin-bottom:5px;
+}
+
+.stock-signup-div-left-input-container button{
+    width:250px;
+    height:35px;
+    border:1px solid blue;
+    background-color:blue;
+    border-radius:7px;
+    margin-top:20px;
+    color:white;
+    font-weight:normal;
+    font-size:15px;
+}
+
+.stock-signup-div-left-input-container h5{
+    text-align:center;
+    font-weight:normal;
+    font-size:15px;
+    padding:0;
+    padding-top:25px;
+    text-decoration:none;
+}
+
+
+.stock-signup-div-right
+{
+    width:50%;
+    height:100%;
+    border-radius:21px;
+    display:flex;
+    flex-direction:column;
+}
+
+.stock-signup-div-right img{
+    width:100%;
+    height:100%;
+    border-radius:19px;
+}
+
+
+
+
