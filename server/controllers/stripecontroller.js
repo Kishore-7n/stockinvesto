@@ -6,7 +6,7 @@ const {v4:uuidv4} = require("uuid")
 const db = require("../db/db")
 
 const checkoutstripe = async(req,res) => {
-    const YOUR_DOMAIN = 'http://localhost:3000';
+    const YOUR_DOMAIN = 'https://stockinvesto.netlify.app';
     const item = req.body.stock; 
     const line_items = [{
         price_data: {
