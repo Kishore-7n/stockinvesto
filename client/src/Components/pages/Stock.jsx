@@ -8,7 +8,7 @@ function Stock() {
     const [Stocks,SetStocks] = useState([])
     const [filtertext,setfiltertext] = useState("")
     const getstocks = () => {
-        axios.get("http://localhost:8000/stocks").then((res)=>{
+        axios.get("https://stockinvesto-2.onrender.com/stocks").then((res)=>{
             SetStocks(res.data)
         })
     }

@@ -13,7 +13,7 @@ function Orders() {
     const user = storedUser ? JSON.parse(storedUser) : null;
     const fetchorders = () => {
 
-            axios.post('http://localhost:8000/getorders',{user_id:user.user_id}).then((res)=>{
+            axios.post('https://stockinvesto-2.onrender.com/getorders',{user_id:user.user_id}).then((res)=>{
                 setOrders(res.data)
             }).then((err)=>{
                 console.log(err);
@@ -21,7 +21,7 @@ function Orders() {
     }
 
     const fetchuserdata = () => {
-      axios.post("http://localhost:8000/getuser",{user_id:user.user_id}).then((res)=>{
+      axios.post("https://stockinvesto-2.onrender.com/getuser",{user_id:user.user_id}).then((res)=>{
         console.log(res);
       })
     }
@@ -36,7 +36,7 @@ function Orders() {
 
     const handlesell = (order) => {
       
-      axios.post("http://localhost:8000/sellorder",{"order":order}).then((res)=>{
+      axios.post("https://stockinvesto-2.onrender.com/sellorder",{"order":order}).then((res)=>{
         if(res.status===200)
           {
             fetchorders()

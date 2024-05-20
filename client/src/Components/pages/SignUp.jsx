@@ -25,7 +25,7 @@ function SignUp() {
   const sendsignup = async(event) => {
 
     event.preventDefault();
-    await axios.post("http://localhost:8000/signup",formdata).then((res)=>{
+    await axios.post("https://stockinvesto-2.onrender.com/signup",formdata).then((res)=>{
       if(res.status===200)
       {
           navigate('/login')

@@ -22,7 +22,7 @@ function Login() {
   }
   const sendlogin = (event) => {
     event.preventDefault();
-    axios.post("http://localhost:8000/login",formdata).then((res)=>{
+    axios.post("https://stockinvesto-2.onrender.com/login",formdata).then((res)=>{
       if(res.status===200)
         {
           localStorage.setItem("user",JSON.stringify(res.data))

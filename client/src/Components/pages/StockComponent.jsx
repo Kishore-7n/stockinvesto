@@ -27,7 +27,7 @@ function StockComponent({ show, onHide, stock }) {
       userid
     }
     const handlebuystock = async() => {
-      await axios.post('http://localhost:8000/create-checkout-session',data).then((res)=>{
+      await axios.post('https://stockinvesto-2.onrender.com/create-checkout-session',data).then((res)=>{
         window.location.href=res.data.url;
       });
     }
