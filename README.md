@@ -31,7 +31,7 @@
   8.Stripe
 
 # LiveURL
-  https://snazzy-tanuki-ccbca4.netlify.app
+  https://stockinvesto.netlify.app
 
 # sample images
 
